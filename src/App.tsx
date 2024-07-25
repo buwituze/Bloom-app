@@ -4,6 +4,7 @@ import LandingPage from "./components/LandingPage";
 import Login from "./components/login";
 import Navbar from "./components/Navbar";
 import Signup from "./components/signup";
+import AllProducts from "./components/allproducts";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/Navbar" element={<Navbar />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/allproducts" element={<AllProducts />} />
       </Routes>
     </Router>
   );

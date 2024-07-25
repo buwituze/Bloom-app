@@ -50,7 +50,9 @@ function Signup() {
           </div>{" "}
           <br /> <br />
           <div>
-            <button type="submit">Sign up</button>
+            <Link to="/allproducts">
+              <button type="submit">Sign up</button>
+            </Link>
           </div>
           <p>
             Already have an account? <Link to="/login">Sign in</Link>
