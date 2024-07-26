@@ -13,6 +13,8 @@ import FarmingTools from "./components/farmingtools";
 import IrrigationTools from "./components/irrigationtools";
 import TestKits from "./components/testkits";
 import FarmProduce from "./components/farmproduce";
+import Resources from "./components/resources";
+import News from "./components/news";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Route path="/irrigationtools" element={<IrrigationTools />} />
         <Route path="/testkits" element={<TestKits />} />
         <Route path="/farmproduce" element={<FarmProduce />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/news" element={<News />} />
       </Routes>
     </Router>
   );

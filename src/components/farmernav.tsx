@@ -31,48 +31,48 @@ function FarmerNavbar() {
         <div>
           <ul>
             <li>
-              <Link to="#home">Home</Link>
+              <Link to="/LandingPage">Home</Link>
             </li>
 
             <div className="dropdown">
               <li>
-                <Link to="#" className="dropbtn">
+                <Link to="/allproducts" className="dropbtn">
                   Products
                 </Link>
               </li>
               <div className="dropdown-content">
                 <p>
-                  <Link to="careerdevelopment.html">Fertilizers</Link>
+                  <Link to="/fertilizers">Fertilizers</Link>
                 </p>
                 <br />
                 <p>
-                  <Link to="onCampusEvents.html">Seeds</Link>
+                  <Link to="/seeds">Seeds</Link>
                 </p>
                 <br />
                 <p>
-                  <Link to="onCampusEvents.html">Pesticides</Link>
+                  <Link to="/pesticides">Pesticides</Link>
                 </p>
                 <br />
                 <p>
-                  <Link to="onCampusEvents.html">Farming Tools</Link>
+                  <Link to="/farmingtools">Farming Tools</Link>
                 </p>
                 <br />
                 <p>
-                  <Link to="onCampusEvents.html">Irrigation Tools</Link>
+                  <Link to="/irrigationtools">Irrigation Tools</Link>
                 </p>
                 <br />
                 <p>
-                  <Link to="onCampusEvents.html">Test Kits</Link>
+                  <Link to="/testkits">Test Kits</Link>
                 </p>
                 <br />
                 <p>
-                  <Link to="onCampusEvents.html">Farming Produce</Link>
+                  <Link to="/farmproduce">Farming Produce</Link>
                 </p>
               </div>
             </div>
 
             <li>
-              <Link to="#home">Resources</Link>
+              <Link to="/resources">Resources</Link>
             </li>
 
             <div className="dropdown">
@@ -87,13 +87,13 @@ function FarmerNavbar() {
                 </p>
                 <br />
                 <p>
-                  <Link to="">Community</Link>
+                  <Link to="">Communities</Link>
                 </p>
               </div>
             </div>
 
             <li>
-              <Link to="#home">News</Link>
+              <Link to="/news">News</Link>
             </li>
           </ul>
         </div>
