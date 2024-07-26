@@ -33,6 +33,7 @@ body{
 .search {
     float: right;
     margin-right: 5%;
+    margin-left: 100%;
     display: flex;
 }
 .search input{

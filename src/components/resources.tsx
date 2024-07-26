@@ -50,7 +50,7 @@ function Resources() {
             </p>
           </div>
         </div>
-        <div className="search">
+        <div className="searchresources">
           <input type="text" placeholder="Search Products" />
           <button type="submit">
             <i className="bx bx-search-alt-2"></i>
