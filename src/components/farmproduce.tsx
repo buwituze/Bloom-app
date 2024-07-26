@@ -5,7 +5,7 @@ import FarmerNavbar from "../components/farmernav";
 import FarmerFooter from "../components/farmerfooter";
 import ProductNav from "../components/verticalproductnav";
 
-function AllProducts() {
+function FarmProduce() {
   return (
     <div>
       <FarmerNavbar />
@@ -26,11 +26,11 @@ function AllProducts() {
               <i class="bx bx-search-alt-2"></i>
             </button>
           </div>
-          <h3>Available products</h3>
+          <h3>Farm Produce</h3>
 
           <div className="cardssection">
             <div className="singleproduct">
-              <img src="/roundup-removebg-preview.png" alt="Product 1" />
+              <img src="/jackfruit-homepage.png" alt="Product 1" />
               <div className="productdetails">
                 <p className="singlename">Roundup Herbicide</p>
                 <p className="singleprice">10,000FRW</p>
@@ -45,7 +45,7 @@ function AllProducts() {
             </div>
             <div className="singleproduct">
               <img
-                src="/flowerseeds-removebg-preview.png"
+                src="/orange-removebg-preview.png"
                 alt="Product 2"
                 width={"100px"}
                 height={"50px"}
@@ -63,10 +63,7 @@ function AllProducts() {
               </div>
             </div>
             <div className="singleproduct">
-              <img
-                src="/amidas_fertilizers-removebg-preview.png"
-                alt="Product 1"
-              />
+              <img src="/trayofeggs.webp" alt="Product 1" />
               <div className="productdetails">
                 <p className="singlename">Roundup Herbicide</p>
                 <p className="singleprice">10,000FRW</p>
@@ -81,7 +78,7 @@ function AllProducts() {
             </div>
 
             <div className="singleproduct">
-              <img src="https://via.placeholder.com/150" alt="Product 1" />
+              <img src="/vegetables.jpg" alt="Product 1" />
               <div className="productdetails">
                 <p className="singlename">Amidas Fertilizers</p>
                 <p className="singleprice">30000FRW</p>
@@ -125,4 +122,4 @@ function AllProducts() {
   );
 }
 
-export default AllProducts;
+export default FarmProduce;

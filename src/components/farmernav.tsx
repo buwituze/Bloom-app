@@ -41,8 +41,33 @@ function FarmerNavbar() {
                 </Link>
               </li>
               <div className="dropdown-content">
-                <Link to="careerdevelopment.html">Career Development</Link>
-                <Link to="onCampusEvents.html">On-Campus Events</Link>
+                <p>
+                  <Link to="careerdevelopment.html">Fertilizers</Link>
+                </p>
+                <br />
+                <p>
+                  <Link to="onCampusEvents.html">Seeds</Link>
+                </p>
+                <br />
+                <p>
+                  <Link to="onCampusEvents.html">Pesticides</Link>
+                </p>
+                <br />
+                <p>
+                  <Link to="onCampusEvents.html">Farming Tools</Link>
+                </p>
+                <br />
+                <p>
+                  <Link to="onCampusEvents.html">Irrigation Tools</Link>
+                </p>
+                <br />
+                <p>
+                  <Link to="onCampusEvents.html">Test Kits</Link>
+                </p>
+                <br />
+                <p>
+                  <Link to="onCampusEvents.html">Farming Produce</Link>
+                </p>
               </div>
             </div>
 
@@ -57,8 +82,13 @@ function FarmerNavbar() {
                 </Link>
               </li>
               <div className="dropdown-content">
-                <Link to="careerdevelopment.html">Career Development</Link>
-                <Link to="onCampusEvents.html">On-Campus Events</Link>
+                <p>
+                  <Link to="">Events</Link>
+                </p>
+                <br />
+                <p>
+                  <Link to="">Community</Link>
+                </p>
               </div>
             </div>
 
@@ -68,6 +98,11 @@ function FarmerNavbar() {
           </ul>
         </div>
         <div className="icons">
+          <div className="Profile">
+            <Link to="">
+              <i className="bx bxs-cart"></i>
+            </Link>
+          </div>
           <div className="Profile">
             <Link to="">
               <i className="bx bx-bell"></i>

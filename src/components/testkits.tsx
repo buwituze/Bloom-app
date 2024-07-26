@@ -5,7 +5,7 @@ import FarmerNavbar from "../components/farmernav";
 import FarmerFooter from "../components/farmerfooter";
 import ProductNav from "../components/verticalproductnav";
 
-function AllProducts() {
+function Testkits() {
   return (
     <div>
       <FarmerNavbar />
@@ -26,11 +26,11 @@ function AllProducts() {
               <i class="bx bx-search-alt-2"></i>
             </button>
           </div>
-          <h3>Available products</h3>
+          <h3>Test Kits</h3>
 
           <div className="cardssection">
             <div className="singleproduct">
-              <img src="/roundup-removebg-preview.png" alt="Product 1" />
+              <img src="/soiltestkit-removebg-preview.png" alt="Product 1" />
               <div className="productdetails">
                 <p className="singlename">Roundup Herbicide</p>
                 <p className="singleprice">10,000FRW</p>
@@ -125,4 +125,4 @@ function AllProducts() {
   );
 }
 
-export default AllProducts;
+export default Testkits;

@@ -5,7 +5,7 @@ import FarmerNavbar from "../components/farmernav";
 import FarmerFooter from "../components/farmerfooter";
 import ProductNav from "../components/verticalproductnav";
 
-function AllProducts() {
+function IrrigationTools() {
   return (
     <div>
       <FarmerNavbar />
@@ -26,13 +26,13 @@ function AllProducts() {
               <i class="bx bx-search-alt-2"></i>
             </button>
           </div>
-          <h3>Available products</h3>
+          <h3>Irrigation Tools</h3>
 
           <div className="cardssection">
             <div className="singleproduct">
-              <img src="/roundup-removebg-preview.png" alt="Product 1" />
+              <img src="/dripkit.png" alt="Product 1" />
               <div className="productdetails">
-                <p className="singlename">Roundup Herbicide</p>
+                <p className="singlename">Drip Kit</p>
                 <p className="singleprice">10,000FRW</p>
               </div>
               <div className="btn">
@@ -45,13 +45,13 @@ function AllProducts() {
             </div>
             <div className="singleproduct">
               <img
-                src="/flowerseeds-removebg-preview.png"
+                src="/irrigation_fittings-removebg-preview.png"
                 alt="Product 2"
                 width={"100px"}
                 height={"50px"}
               />
               <div className="productdetails">
-                <p className="singlename">Flower Seeds</p>
+                <p className="singlename">Irrigation fittings</p>
                 <p className="singleprice">5000FRW</p>
               </div>
               <div className="btn">
@@ -63,13 +63,10 @@ function AllProducts() {
               </div>
             </div>
             <div className="singleproduct">
-              <img
-                src="/amidas_fertilizers-removebg-preview.png"
-                alt="Product 1"
-              />
+              <img src="/Frogued Watering Package.webp" alt="Product 1" />
               <div className="productdetails">
-                <p className="singlename">Roundup Herbicide</p>
-                <p className="singleprice">10,000FRW</p>
+                <p className="singlename">Watering Package</p>
+                <p className="singleprice">20,000FRW</p>
               </div>
               <div className="btn">
                 <button>Learn More</button>
@@ -81,7 +78,7 @@ function AllProducts() {
             </div>
 
             <div className="singleproduct">
-              <img src="https://via.placeholder.com/150" alt="Product 1" />
+              <img src="" alt="Product 1" />
               <div className="productdetails">
                 <p className="singlename">Amidas Fertilizers</p>
                 <p className="singleprice">30000FRW</p>
@@ -125,4 +122,4 @@ function AllProducts() {
   );
 }
 
-export default AllProducts;
+export default IrrigationTools;

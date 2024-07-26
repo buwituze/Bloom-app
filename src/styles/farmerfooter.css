@@ -2,14 +2,12 @@
 .footer-section {
     background-color: black;
     color: white;
- margin-top: 7%;
-
-  
+ margin-top: 7%;  
   }
 
 .toppart {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 100px;
     padding-right: 100px;
     border-bottom: 1px solid #cccc;
@@ -21,7 +19,7 @@
 
 .bottompart {
     display: flex;
-    gap: 10%;
+    gap: 13%;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 20px;
@@ -42,9 +40,13 @@
     list-style: none;
 }
 .bottompart h5{
-    padding-top: 10%;
+    padding-top: 30px;
     color: white;
     font-size: 17px;
-    padding-bottom: 10px;
-    padding-left: 35px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.Support{
+  padding-top: -20%;
 }
