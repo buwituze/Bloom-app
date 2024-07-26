@@ -23,7 +23,7 @@ function Testkits() {
           <div className="search">
             <input type="text" placeholder="Search Products" />
             <button type="submit">
-              <i class="bx bx-search-alt-2"></i>
+              <i className="bx bx-search-alt-2"></i>
             </button>
           </div>
           <h3>Test Kits</h3>
@@ -39,7 +39,7 @@ function Testkits() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -58,7 +58,7 @@ function Testkits() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -75,7 +75,7 @@ function Testkits() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -90,7 +90,7 @@ function Testkits() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
