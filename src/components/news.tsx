@@ -17,13 +17,14 @@ function News() {
           <img src="/croppednewsbackground.jpg" alt="" />
         </div>
 
-        <div className="search">
-          <input type="text" placeholder="Search Products" />
-          <button type="submit">
-            <i className="bx bx-search-alt-2"></i>
-          </button>
-        </div>
         <section id="healthtips">
+          <div className="search">
+            <input type="text" placeholder="Search Products" />
+            <button type="submit">
+              <i className="bx bx-search-alt-2"></i>
+            </button>
+          </div>
+
           <div className="tip-card">
             <div className="tip-text">
               <h2>Integrated Pest Management</h2>

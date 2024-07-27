@@ -4,11 +4,13 @@
 
 body{
     width: 100%;
-    background-color: #c2e1c72c;
+    /* background-color: #c2e1c72c; */
 
 }
 
-
+.resources{
+    background-color: #c2e1c72c;
+}
 .searchresources {
     float: right;
     margin-right: 35%;

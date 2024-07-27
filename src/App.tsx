@@ -15,6 +15,8 @@ import TestKits from "./components/testkits";
 import FarmProduce from "./components/farmproduce";
 import Resources from "./components/resources";
 import News from "./components/news";
+import Cart from "./components/cart";
+import Checkout from "./components/checkout";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
         <Route path="/farmproduce" element={<FarmProduce />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/news" element={<News />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </Router>
   );

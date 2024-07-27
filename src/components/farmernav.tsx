@@ -99,7 +99,7 @@ function FarmerNavbar() {
         </div>
         <div className="icons">
           <div className="Profile">
-            <Link to="">
+            <Link to="/cart">
               <i className="bx bxs-cart"></i>
             </Link>
           </div>
