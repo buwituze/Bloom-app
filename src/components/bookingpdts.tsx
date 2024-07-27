@@ -5,7 +5,7 @@ import FarmerNavbar from "../components/farmernav";
 import FarmerFooter from "../components/farmerfooter";
 import ProductNav from "../components/verticalproductnav";
 
-function Pesticides() {
+function BookingProducts() {
   return (
     <div>
       <FarmerNavbar />
@@ -23,14 +23,17 @@ function Pesticides() {
           <div className="search">
             <input type="text" placeholder="Search Products" />
             <button type="submit">
-              <i class="bx bx-search-alt-2"></i>
+              <i className="bx bx-search-alt-2"></i>
             </button>
           </div>
-          <h3>Pesticides</h3>
+          <h3>Upcoming products</h3>
 
           <div className="cardssection">
             <div className="singleproduct">
-              <img src="/roundup-removebg-preview.png" alt="Product 1" />
+              <img
+                src="/sunflowers_seeds-removebg-preview.png"
+                alt="Product 1"
+              />
               <div className="productdetails">
                 <p className="singlename">Roundup Herbicide</p>
                 <p className="singleprice">10,000FRW</p>
@@ -39,13 +42,13 @@ function Pesticides() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
             <div className="singleproduct">
               <img
-                src="/pesticides-removebg-preview.png"
+                src="/tillers-removebg-preview.png"
                 alt="Product 2"
                 width={"100px"}
                 height={"50px"}
@@ -58,12 +61,15 @@ function Pesticides() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
             <div className="singleproduct">
-              <img src="/pesticidejercan.png" alt="Product 1" />
+              <img
+                src="/amidas_fertilizers-removebg-preview.png"
+                alt="Product 1"
+              />
               <div className="productdetails">
                 <p className="singlename">Roundup Herbicide</p>
                 <p className="singleprice">10,000FRW</p>
@@ -72,7 +78,7 @@ function Pesticides() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -87,7 +93,7 @@ function Pesticides() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -122,4 +128,4 @@ function Pesticides() {
   );
 }
 
-export default Pesticides;
+export default BookingProducts;

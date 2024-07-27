@@ -9,21 +9,21 @@ body{
 }
 
 
-.search {
+.searchresources {
     float: right;
     margin-right: 35%;
     margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
 }
-.search input{
+.searchresources input{
     border: 1px solid #cccccc;
     border-radius: 20px;
     padding: 8px;
     width: 250px;
 
 }
-.search button{
+.searchresources button{
     margin-left: -15%;
     background-color: transparent;
    border: none;

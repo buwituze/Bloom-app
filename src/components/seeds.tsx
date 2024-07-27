@@ -5,7 +5,7 @@ import FarmerNavbar from "../components/farmernav";
 import FarmerFooter from "../components/farmerfooter";
 import ProductNav from "../components/verticalproductnav";
 
-function AllProducts() {
+function Seeds() {
   return (
     <div>
       <FarmerNavbar />
@@ -23,14 +23,14 @@ function AllProducts() {
           <div className="search">
             <input type="text" placeholder="Search Products" />
             <button type="submit">
-              <i class="bx bx-search-alt-2"></i>
+              <i className="bx bx-search-alt-2"></i>
             </button>
           </div>
-          <h3>Available products</h3>
+          <h3>Seeds</h3>
 
           <div className="cardssection">
             <div className="singleproduct">
-              <img src="/roundup-removebg-preview.png" alt="Product 1" />
+              <img src="/packed_seeds-removebg-preview.png" alt="Product 1" />
               <div className="productdetails">
                 <p className="singlename">Roundup Herbicide</p>
                 <p className="singleprice">10,000FRW</p>
@@ -39,7 +39,7 @@ function AllProducts() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -58,15 +58,12 @@ function AllProducts() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
             <div className="singleproduct">
-              <img
-                src="/amidas_fertilizers-removebg-preview.png"
-                alt="Product 1"
-              />
+              <img src="/appleseeds.jpg" alt="Product 1" />
               <div className="productdetails">
                 <p className="singlename">Roundup Herbicide</p>
                 <p className="singleprice">10,000FRW</p>
@@ -75,7 +72,7 @@ function AllProducts() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -90,7 +87,7 @@ function AllProducts() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -125,4 +122,4 @@ function AllProducts() {
   );
 }
 
-export default AllProducts;
+export default Seeds;

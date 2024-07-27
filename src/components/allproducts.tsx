@@ -5,7 +5,7 @@ import FarmerNavbar from "../components/farmernav";
 import FarmerFooter from "../components/farmerfooter";
 import ProductNav from "../components/verticalproductnav";
 
-function Fertilizers() {
+function AllProducts() {
   return (
     <div>
       <FarmerNavbar />
@@ -23,12 +23,45 @@ function Fertilizers() {
           <div className="search">
             <input type="text" placeholder="Search Products" />
             <button type="submit">
-              <i class="bx bx-search-alt-2"></i>
+              <i className="bx bx-search-alt-2"></i>
             </button>
           </div>
-          <h3>Fertilizers</h3>
+          <h3>Available products</h3>
 
           <div className="cardssection">
+            <div className="singleproduct">
+              <img src="/roundup-removebg-preview.png" alt="Product 1" />
+              <div className="productdetails">
+                <p className="singlename">Roundup Herbicide</p>
+                <p className="singleprice">10,000FRW</p>
+              </div>
+              <div className="btn">
+                <button>Learn More</button>
+
+                <button>
+                  <i className="bx bxs-cart"></i> Add to cart
+                </button>
+              </div>
+            </div>
+            <div className="singleproduct">
+              <img
+                src="/flowerseeds-removebg-preview.png"
+                alt="Product 2"
+                width={"100px"}
+                height={"50px"}
+              />
+              <div className="productdetails">
+                <p className="singlename">Flower Seeds</p>
+                <p className="singleprice">5000FRW</p>
+              </div>
+              <div className="btn">
+                <button>Learn More</button>
+
+                <button>
+                  <i className="bx bxs-cart"></i> Add to cart
+                </button>
+              </div>
+            </div>
             <div className="singleproduct">
               <img
                 src="/amidas_fertilizers-removebg-preview.png"
@@ -42,40 +75,7 @@ function Fertilizers() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
-                </button>
-              </div>
-            </div>
-            <div className="singleproduct">
-              <img
-                src="/fertilizers-removebg-preview.png"
-                alt="Product 2"
-                width={"100px"}
-                height={"50px"}
-              />
-              <div className="productdetails">
-                <p className="singlename">Flower Seeds</p>
-                <p className="singleprice">5000FRW</p>
-              </div>
-              <div className="btn">
-                <button>Learn More</button>
-
-                <button>
-                  <i class="bx bxs-cart"></i> Add to cart
-                </button>
-              </div>
-            </div>
-            <div className="singleproduct">
-              <img src="/tracel-removebg-preview.png" alt="Product 1" />
-              <div className="productdetails">
-                <p className="singlename">Roundup Herbicide</p>
-                <p className="singleprice">10,000FRW</p>
-              </div>
-              <div className="btn">
-                <button>Learn More</button>
-
-                <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -90,7 +90,7 @@ function Fertilizers() {
                 <button>Learn More</button>
 
                 <button>
-                  <i class="bx bxs-cart"></i> Add to cart
+                  <i className="bx bxs-cart"></i> Add to cart
                 </button>
               </div>
             </div>
@@ -125,4 +125,4 @@ function Fertilizers() {
   );
 }
 
-export default Fertilizers;
+export default AllProducts;
