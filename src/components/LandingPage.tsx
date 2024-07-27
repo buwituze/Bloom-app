@@ -198,7 +198,7 @@ function LandingPage() {
               </p>
               <p className="price">5000 RWF</p>
             </div>
-            <div className="buttons">
+            <div className="button">
               <button>View All</button> <button>Add to Cart</button>
             </div>
           </div>
