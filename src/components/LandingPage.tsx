@@ -30,10 +30,10 @@ function LandingPage() {
         <div className="about">
           <div>
             <p>
-              At AgricultureHub, we’re dedicated to revolutionizing farming in
-              Rwanda. Our platform offers expert guidance, a marketplace for
-              quality agricultural products, and a supportive community for
-              farmers. Empower your farming journey with us and thrive in your
+              At Bloom, we’re dedicated to revolutionizing farming in Rwanda.
+              Our platform offers expert guidance, a marketplace for quality
+              agricultural products, and a supportive community for farmers.
+              Empower your farming journey with us and thrive in your
               agricultural endeavors.
             </p>
           </div>
@@ -49,7 +49,7 @@ function LandingPage() {
         <div className="product-categories">
           <div className="product-category">
             <img
-              src="https://via.placeholder.com/150"
+              src="/fertilizers-removebg-preview.png"
               alt="Product 1"
               className="product-image"
             />
@@ -57,7 +57,7 @@ function LandingPage() {
           </div>
           <div className="product-category">
             <img
-              src="https://via.placeholder.com/150"
+              src="/packed_seeds-removebg-preview.png"
               alt="Product 2"
               className="product-image"
             />
@@ -65,7 +65,7 @@ function LandingPage() {
           </div>
           <div className="product-category">
             <img
-              src="https://via.placeholder.com/150"
+              src="/plantbooster-removebg-preview.png"
               alt="Product 1"
               className="product-image"
             />
@@ -74,7 +74,7 @@ function LandingPage() {
 
           <div className="product-category">
             <img
-              src="https://via.placeholder.com/150"
+              src="/tillers-removebg-preview.png"
               alt="Product 1"
               className="product-image"
             />
@@ -83,7 +83,7 @@ function LandingPage() {
 
           <div className="product-category">
             <img
-              src="https://via.placeholder.com/150"
+              src="/irrigation-removebg-preview.png"
               alt="Product 1"
               className="product-image"
             />
@@ -92,7 +92,7 @@ function LandingPage() {
 
           <div className="product-category">
             <img
-              src="https://via.placeholder.com/150"
+              src="/soiltestkit-removebg-preview.png"
               alt="Product 1"
               className="product-image"
             />
@@ -101,7 +101,7 @@ function LandingPage() {
 
           <div className="product-category">
             <img
-              src="https://via.placeholder.com/150"
+              src="/trayofeggs.webp"
               alt="Product 1"
               className="product-image"
             />
@@ -110,7 +110,7 @@ function LandingPage() {
         </div>
       </section>
       <section className="services-section">
-        <h3>Our Services</h3>
+        <h3>Services</h3>
         <div className="feature-list">
           <div className="feature-item">
             <div className="feature-icon">

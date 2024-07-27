@@ -22,7 +22,7 @@ function Login() {
           <div>
             <label htmlFor="password">Password</label> <br />
             <input type="password" id="password" required /> <br /> <br />
-          </div>{" "}
+          </div>
           <div>
             <Link to="/homepage">
               <button type="submit">Sign in</button>

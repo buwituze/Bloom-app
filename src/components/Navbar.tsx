@@ -6,7 +6,7 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <header className="header">
-      <Link to="/LandingPage">
+      <Link to="/">
         <img src="/bloomlogo3-removebg-preview.png" alt="bloom" />
       </Link>
       <nav>

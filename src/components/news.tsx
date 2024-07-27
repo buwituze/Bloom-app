@@ -10,7 +10,7 @@ function News() {
       <FarmerNavbar />
 
       <section className="news">
-        <div className="intro">
+        <div className="newsintro">
           <h2>
             Agricultural <br /> Updates
           </h2>
@@ -18,8 +18,8 @@ function News() {
         </div>
 
         <section id="healthtips">
-          <div className="search">
-            <input type="text" placeholder="Search Products" />
+          <div className="searchnews">
+            <input type="text" placeholder="Search News" />
             <button type="submit">
               <i className="bx bx-search-alt-2"></i>
             </button>

@@ -64,7 +64,8 @@ const Cart: React.FC = () => {
                         >
                           +
                         </button>
-                      </div>
+                      </div>{" "}
+                      <br />
                       <button onClick={() => removeFromCart(item.id)}>
                         Remove
                       </button>

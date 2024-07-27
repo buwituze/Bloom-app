@@ -24,7 +24,7 @@ function FarmerNavbar() {
 
   return (
     <header className="header">
-      <Link to="/LandingPage">
+      <Link to="/farmerhome">
         <img src="/bloomlogo3-removebg-preview.png" alt="bloom" />
       </Link>
       <nav>
@@ -109,9 +109,26 @@ function FarmerNavbar() {
             </Link>
           </div>
           <div className="Profile">
-            <Link to="">
-              <i className="bx bx-user-circle"></i>
-            </Link>
+            <div className="profiledropdown">
+              <Link to="" className="profiledropbtn">
+                <i className="bx bx-user-circle"></i>
+              </Link>
+
+              <div className="profiledropdown-content">
+                <p>
+                  <Link to="/fertilizers">Profile</Link>
+                </p>
+                <br />
+                <p>
+                  <Link to="/seeds">Settings</Link>
+                </p>
+                <br />
+                <p>
+                  <Link to="/pesticides">Logout</Link>
+                </p>
+                <br />
+              </div>
+            </div>
           </div>
         </div>
       </nav>

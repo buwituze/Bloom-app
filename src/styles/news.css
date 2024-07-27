@@ -9,21 +9,21 @@ body{
 }
 
 
-.search {
+.searchnews {
     float: right;
     margin-right: 35%;
-    margin-top: 5%;
+    /* margin-top: 1%; */
     margin-bottom: 5%;
     display: flex;
 }
-.search input{
+.searchnews input{
     border: 1px solid #cccccc;
     border-radius: 20px;
     padding: 8px;
     width: 250px;
 
 }
-.search button{
+.searchnews button{
     margin-left: -15%;
     background-color: transparent;
    border: none;
@@ -31,17 +31,17 @@ body{
     padding: 8px;
     cursor: pointer;
 }
-.search button i{
+.searchnews button i{
     color: #cccccc;
     font-size: 17px;
 }
 /*darken the intro img picture*/
 
-.intro {
+.newsintro {
     position: relative;
 }
 
-.intro::before {
+.newsintro::before {
     content: "";
     position: absolute;
     top: 0;
@@ -51,7 +51,7 @@ body{
     background-color: rgba(0, 0, 0, 0.13);
 }
 
-.intro::after {
+.newsintro::after {
     content: "";
     position: absolute;
     top: 0;
@@ -61,15 +61,15 @@ body{
     background-color: rgba(0, 0, 0, 0.103);
 }
 
-.intro img {
+.newsintro img {
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
 
 
-.intro h2{
+.newsintro h2{
     position: absolute;
     top: 200px;
     left: 810px;
@@ -80,7 +80,7 @@ body{
     width: 17%;
 }
 #healthtips{
-    padding-top: 8%;
+    padding-top: 3%;
     background-color: #c2e1c72c;
 }
 
