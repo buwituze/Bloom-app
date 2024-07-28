@@ -35,7 +35,7 @@ const FarmerDashboard: React.FC = () => {
       <main className="flex-1 p-8">
         <>
           <h2 className="text-3xl font-bold mb-6">Welcome to Bloom !</h2>
-          <img src='/images/Screenshot 2024-07-27 125616.png' alt="Dashboard screenshot" />
+          <img src='Screenshot 2024-07-27 125616.png' alt="Dashboard screenshot" />
           {/* ... (rest of the dashboard content) */}
         </>
       </main>

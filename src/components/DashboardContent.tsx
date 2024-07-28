@@ -8,7 +8,7 @@ const DashboardContent: React.FC = () => (
       <div className="bg-white p-4 rounded shadow">
         <h3 className="text-xl font-semibold mb-2">Welcome!</h3>
         <p>Welcome to Bloom, your one-stop platform for all agricultural needs.</p>
-        <img src='/images/Rectangle 8.png' alt="Welcome" />
+        <img src='Rectangle 8.png' alt="Welcome" />
       </div>
       <div className="bg-white p-4 rounded shadow">
         <h3 className="text-xl font-semibold mb-2">Latest Activities</h3>
@@ -17,7 +17,7 @@ const DashboardContent: React.FC = () => (
           <li>Viewed weather forecast</li>
           <li>Posted in the community forum</li>
         </ul>
-        <img src='/images/Group 62.png' alt="Latest Activities" />
+        <img src='Group 62.png' alt="Latest Activities" />
       </div>
       <div className="bg-white p-4 rounded shadow">
         <h3 className="text-xl font-semibold mb-2">Market Prices</h3>
