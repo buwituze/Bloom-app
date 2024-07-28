@@ -17,6 +17,7 @@ import Resources from "./components/resources";
 import News from "./components/news";
 import Cart from "./components/cart";
 import Checkout from "./components/checkout";
+import Admin from "./components/"
 
 function App() {
   return (
