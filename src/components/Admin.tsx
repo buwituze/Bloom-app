@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
-import Community from "./Community";
-import Expert from "./Expert";
-import Market from "./Market";
-import MarketPrices from "./MarketPrices";
-import Weather from "./Weather";
-import DashboardContent from './DashboardContent';
+// import Community from "./Community";
+// import Expert from "./Expert";
+// import Market from "./Market";
+// import MarketPrices from "./MarketPrices";
+// import Weather from "./Weather";
+// import DashboardContent from './DashboardContent';
 
 // Define the Sidebar component
 const Sidebar: React.FC = () => (

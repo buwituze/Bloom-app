@@ -1,5 +1,5 @@
 import React from 'react';
-import MarketPrices from './MarketPrices';
+import MarketPrices from "./MarketPrices";
 
 const DashboardContent: React.FC = () => (
   <>

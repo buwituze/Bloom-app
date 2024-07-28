@@ -19,6 +19,11 @@ import Cart from "./components/cart";
 import Checkout from "./components/checkout";
 import Admin from "./components/Admin"
 import DashboardContent from "./components/DashboardContent"
+import Expert from "./components/Expert"
+import MarketPrices from "./components/MarketPrices";
+import Weather from "./components/Weather"
+import Community from "./components/Community"
+import Market from "./components/Market"
 
 function App() {
   return (
