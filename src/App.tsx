@@ -17,12 +17,14 @@ import Resources from "./components/resources";
 import News from "./components/news";
 import Cart from "./components/cart";
 import Checkout from "./components/checkout";
-import Admin from "./components/"
+import Admin from "./components/Admin"
+import DashboardContent from "./components/DashboardContent"
 
 function App() {
   return (
     <Router>
       <Routes>
+      <Route path="/admin" element={<Admin/>} />
         <Route path="/dashboard-content" element={<DashboardContent />} />
         <Route path="/market-prices" element={<MarketPrices />} />
         <Route path="/weather-forecast" element={<Weather />} />
