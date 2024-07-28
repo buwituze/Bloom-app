@@ -22,6 +22,12 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/dashboard-content" element={<DashboardContent />} />
+        <Route path="/market-prices" element={<MarketPrices />} />
+        <Route path="/weather-forecast" element={<Weather />} />
+        <Route path="/marketplace" element={<Market />} />
+        <Route path="/expert-advice" element={<Expert />} />
+        <Route path="/community-forum" element={<Community />} />
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/Navbar" element={<Navbar />} />
