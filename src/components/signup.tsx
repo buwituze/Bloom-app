@@ -9,7 +9,7 @@ function Signup() {
       <NavBar />
 
       <div className="login">
-        <h3>Signup</h3>
+        <h3>Sign Up</h3>
         <form>
           <div className="formdetails">
             <div className="one">

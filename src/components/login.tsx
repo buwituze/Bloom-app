@@ -7,8 +7,11 @@ function Login() {
   return (
     <div>
       <NavBar />
-
-      <div className="login">
+      <div className="login-container">
+        <div>
+          <img className= "login-image" src="FARMER.jpg"></img>
+        </div>
+        <div className="login">
         <h3>Login</h3>
         <form>
           <div>
@@ -34,6 +37,10 @@ function Login() {
         </form>
       </div>
     </div>
+
+      </div>
+
+      
   );
 }
 export default Login;

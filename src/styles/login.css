@@ -11,8 +11,27 @@ body{
 .login {
     padding-left: 34%;
     padding-right: 34%;
+    background: #98c09f;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Adjust as needed */
+  width: 100%; 
   }
-
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #f0f0f0; 
+  }
+  .login-image {
+    margin-left:3rem ;
+    border-radius: 1.5rem; 
+    max-width: 30rem; 
+  }
 .login h3 {
     color: green;
     text-align: center;
@@ -22,7 +41,7 @@ body{
 
 form {
     
-    padding: 5% 7% 5% 17%;
+    padding: 8% 20% 8% 20%;
     border: 1px solid #cccc;
     border-radius: 20px;
   } 

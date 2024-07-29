@@ -10,6 +10,8 @@ body{
 .login {
     padding-left: 34%;
     padding-right: 4%;
+    display: flex;
+    justify-content: center;
   }
 
 .login h3 {
@@ -17,6 +19,7 @@ body{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 7%;
+    font-size: medium;
   }
 
 form {
