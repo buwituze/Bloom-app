@@ -53,6 +53,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </Router>
   );
