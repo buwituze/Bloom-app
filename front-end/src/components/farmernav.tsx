@@ -104,7 +104,7 @@ function FarmerNavbar() {
             </Link>
           </div>
           <div className="Profile">
-            <Link to="/DashboardCoontent.tsx">
+            <Link to="/MarketPrices">
               <i className="bx bx-bell"></i>
             </Link>
           </div>
