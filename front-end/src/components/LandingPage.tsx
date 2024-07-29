@@ -12,7 +12,7 @@ function LandingPage() {
         <div className="hero-layer">
           <div className="hero-content">
             <h1>
-              Welcome to <span>Bloom</span>
+              Welcome to <span></span>
             </h1>
             <p>
               Your go-to resource for farming in Rwanda. Discover expert
